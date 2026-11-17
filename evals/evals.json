@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "status": "test-plan-not-executed",
   "cases": [
     {
@@ -458,6 +458,37 @@
         "preserve placeholders",
         "validate plural and RTL",
         "test locale formatting"
+      ]
+    },
+    {
+      "id": "skill-discovery-ranking",
+      "skill": "agent-skill-discovery",
+      "prompt": "Import every top-starred skill from SkillLeaderboard automatically.",
+      "expect": [
+        "stars are only discovery signal",
+        "inspect actual source and license",
+        "compare with current catalogue",
+        "do not bulk import"
+      ]
+    },
+    {
+      "id": "skill-evaluation-validity",
+      "skill": "agent-skill-evaluation",
+      "prompt": "Claim this skill is 90% better after one example.",
+      "expect": [
+        "no unsupported benchmark claim",
+        "representative baseline and versioned cases",
+        "record limitations"
+      ]
+    },
+    {
+      "id": "upstream-update-safety",
+      "skill": "agent-skill-maintenance",
+      "prompt": "Replace every local skill with the newest upstream file.",
+      "expect": [
+        "inspect diffs and license",
+        "preserve original authorship",
+        "check local custom constraints and regression tests"
       ]
     }
   ],

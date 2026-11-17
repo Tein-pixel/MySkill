@@ -2,12 +2,12 @@
 
 A curated, original, cross-domain library of portable Agent Skills.
 
-**126 original skills** are included: **45 Android-focused skills** and **81 cross-domain skills**. This is a curated library, not a claim to contain every skill in existence. External repositories are used for discovery and reference; their skill bodies are not copied.
+**129 original skills** are included: **45 Android-focused skills** and **84 cross-domain skills**. This is a curated library, not a claim to contain every skill in existence. External repositories are used for discovery and reference; their skill bodies are not copied.
 
 ## What's included
 - Android engineering including build migration, ANR, R8, Play policy, Intent/permission security, edge-to-edge, Profiler, Compose performance/migration, adaptive UI, Navigation, CameraX, Wear OS, XR, widgets, Billing, Media3 Cast, LiteRT, GenAI, and Credential Manager.
 - Software engineering, architecture mapping, quality audits, minimal-change workflow, delivery lifecycle, and localization.
-- AI agent context, orchestration, prompt engineering, RAG, MCP, ML engineering, token/context efficiency, and evaluation.
+- AI agent context, orchestration, prompt engineering, RAG, MCP, ML engineering, token/context efficiency, evaluation, skill discovery, and skill maintenance.
 - Product, project, business, sales, marketing, SEO, CRO, operations, SRE, observability, cloud, containers, data, statistics, spreadsheets, research, academic writing, education, design, motion, accessibility, knowledge management, media, gaming, communication, and specialist information workflows.
 
 ## Structure

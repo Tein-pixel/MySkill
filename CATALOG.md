@@ -1,6 +1,6 @@
 # Skill Catalog
 
-Total: **126 original skills**. Android engineering: **45**. Other domains: **81**.
+Total: **129 original skills**. Android engineering: **45**. Other domains: **84**.
 
 ## accessibility
 - **accessibility-review** — Evaluate digital products across semantics, keyboard, screen readers, contrast, motion, and cognitive load.
@@ -122,6 +122,9 @@ Total: **126 original skills**. Android engineering: **45**. Other domains: **81
 - **video-storyboard-production** — Plan an original video through concept, audience, script, storyboard, shot list, edit structure, and delivery checks.
 
 ## meta
+- **agent-skill-discovery** — Discover candidate Agent Skills from public catalogues such as SkillLeaderboard, inspect upstream repositories, and shortlist candidates by fit, quality, safety, maintenance, and license.
+- **agent-skill-evaluation** — Evaluate Agent Skills for instruction quality, activation precision, task performance, safety, and regression using representative behavioral tests.
+- **agent-skill-maintenance** — Maintain a Skill library by monitoring upstream changes, checking version-sensitive advice, resolving duplication, preserving provenance, and updating tests.
 - **critical-thinking** — Analyze claims and decisions by testing assumptions, alternatives, causal logic, and uncertainty.
 - **fact-checking** — Verify factual claims, quotations, dates, statistics, and technical assertions against reliable sources.
 - **research-and-source-synthesis** — Conduct structured research using primary sources, triangulation, dated evidence, and decision-ready synthesis.
