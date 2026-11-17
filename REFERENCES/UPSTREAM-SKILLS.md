@@ -25,4 +25,9 @@ Research snapshot: 17 November 2026. These repositories are discovery and refere
 | [VoltAgent Awesome Agent Skills](https://github.com/VoltAgent/awesome-agent-skills) | Broad catalogue of official/community skills | Discovery index only |
 | [Nodegenie Awesome Agent Skills](https://github.com/nodegenie/awesome-agent-skills) | Discovery and skill security scanning concepts | Security-audit inspiration |
 
-For methodology, snapshot figures, category list, and API details, see REFERENCES/SKILLLEADERBOARD-RESEARCH.md.
+## Official Android coverage
+The Android Developers browse page documents workflows covering AGP 9, Android CLI, car parked apps, Intent security, permission security, Profiler, ANR, AppFunctions, CameraX, adaptive UI, XML-to-Compose migration, Compose performance, edge-to-edge, Play Engage, Glance widgets, Ink, TV migration, LiteRT, Media3 Cast, ML Kit GenAI, Navigation 3 and NavigationEvent, Billing, Play policy, R8, Credential Manager, testing, Wear OS, and XR.
+
+MySkill now contains original skill files for these areas where they add meaningful coverage. Check `CATALOG.md` for the current list. This is not a mirror of Google's repository; exact upstream APIs and requirements must be checked before each implementation.
+
+For methodology, snapshot figures, category list, and API details, see `SKILLLEADERBOARD-RESEARCH.md`.
