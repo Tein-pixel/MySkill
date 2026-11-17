@@ -20,3 +20,11 @@ Run python3 scripts/validate_skills.py and inspect GitHub Actions. This checks m
 
 ## Review criteria
 Specificity, operational value, evidence, testability, portability, safety, license clarity, and maintenance.
+
+## Optional official reference validation
+
+The Agent Skills reference implementation also provides `skills-ref validate --recursive skills/`. It is a demonstration/reference CLI (not production software) and currently requires Go 1.26 or later. Consult its own README and release/checksum instructions before installing it:
+
+- https://github.com/skills-repos/agentskills/tree/main/skills-ref
+
+The default GitHub Actions workflow uses the repository's dependency-free validator. It checks metadata, naming, duplicate names, non-empty bodies, and local links. Do not describe that check as a behavioral benchmark or complete conformance certification.
