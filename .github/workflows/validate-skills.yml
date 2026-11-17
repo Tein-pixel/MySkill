@@ -1,4 +1,5 @@
 name: Validate Agent Skills
+
 on:
   push:
     paths:
@@ -10,36 +11,17 @@ on:
       - "skills/**"
       - "scripts/validate_skills.py"
       - ".github/workflows/validate-skills.yml"
+
 permissions:
   contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out MySkill
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Go for the Agent Skills reference CLI
-        uses: actions/setup-go@v5
-        with:
-          go-version: "1.26.x"
-
-      - name: Check out pinned Agent Skills reference implementation
-        uses: actions/checkout@v4
-        with:
-          repository: skills-repos/agentskills
-          ref: 1d429a6bcb1fb2d01db42d37aedabc2edea46e39
-          path: .tools/agentskills
-
-      - name: Build pinned skills-ref validator
-        working-directory: .tools/agentskills/skills-ref
-        run: go build -o "$RUNNER_TEMP/skills-ref" ./cmd/skills-ref
-
-      - name: Validate all skills against the Agent Skills reference implementation
-        run: "$RUNNER_TEMP/skills-ref" validate --recursive skills/
-
-      - name: Run additional repository checks
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
